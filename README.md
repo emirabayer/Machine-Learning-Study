@@ -1,4 +1,4 @@
-# Machine-Learning-Study
+# Machine Learning Study
 This repository consists of the ML projects regarding the university's Spring 2025 course.
 
 ***course links:***
