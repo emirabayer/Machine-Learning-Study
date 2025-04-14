@@ -1,5 +1,5 @@
 # Machine-Learning-Study
-This repository consists of ML projects regarding the university's Spring 2025 course.
+This repository consists of the ML projects regarding the university's Spring 2025 course.
 
 ***course links:***
  - https://catalog.bilkent.edu.tr/course/c11464.html
@@ -16,3 +16,10 @@ This project involves the implementation of Principal Component Analysis (PCA), 
 ![image](https://github.com/user-attachments/assets/7cac916b-b24a-44bf-b143-c549d7458c89)
 
 ![image](https://github.com/user-attachments/assets/6ea80309-3be0-475c-a887-5ee518b834db)
+
+## Logistic Regression for Maternal Health Risk Classification
+Implemented a Logistic Regression model using Batch Gradient Ascent, applied to the Maternal Health Risk dataset. The project classifies maternal health risk as low (0) versus moderate/high (1) using six features: Age, SystolicBP, DiastolicBP, BS, BodyTemp, and HeartRate. The model is trained for 1000 iterations with learning rates {10⁻³, 10⁻², 10⁻¹, 1, 10}, incorporating feature normalization and a bias term. Validation accuracy is plotted against iterations to select the best learning rate, and the test set performance is evaluated with accuracy and a confusion matrix. Written in Python using NumPy, Pandas, and Matplotlib, this project demonstrates proficiency in gradient-based optimization, binary classification, and performance evaluation.
+
+
+## Support Vector Machines for Maternal Health Risk Classification
+Built a linear Support Vector Machine (SVM) classifier with a soft margin, using the Maternal Health Risk dataset. The project classifies maternal health risk as low (0) versus moderate/high (1) based on six features: Age, SystolicBP, DiastolicBP, BS, BodyTemp, and HeartRate. A custom 5-fold cross-validation is implemented to select the best hyperparameter C from {0.001, 0.01, 0.1, 1, 10}, evaluating accuracy across folds. The final model, trained with the optimal C, reports test accuracy, confusion matrix, precision, recall, and F1-score. Written in Python using scikit-learn for SVM training, NumPy, Pandas, and custom cross-validation logic, this project highlights expertise in model evaluation, hyperparameter tuning, and classification performance analysis.
